@@ -1,0 +1,101 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bgFromPs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    position: absolute;
+    left: 60%;
+    top: 2%;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 50px;
+}
+
+.onhover:hover {
+    color: #E02626;
+    transition: all ease-in-out .3s;
+}
+
+.active {
+    color: #FFF;
+    background: #E02626;
+    border-radius: 5px;
+}
+
+.active:hover {
+    color: #E02626;
+    background-color: #000;
+    transition: all .3s ease-in-out;
+}
+
+.header {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@font-face {
+    font-family: FlashBack-Demo;
+    src: url('../fonts/Flash_Back.ttf');
+}
+
+.header h1 {
+    color: #FFF;
+    font-family: FlashBack-Demo;
+    font-size: 180px;
+}
+
+.highlight {
+    color: #E02626;
+}
+
+.tagline {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.tagline p {
+    color: #FFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.down {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.down img {
+    width: 80px;
+    background-color: #E02626;
+    border-radius: 50%;
+}
