@@ -1,31 +1,35 @@
-html {
+html, body {
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100vh;
-    background: url('../images/bgFromPs.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .3s;
 }
 
-.nav {
-    position: absolute;
-    left: 60%;
-    top: 2%;
-}
+nav .black {
+    background: rgba(0, 0, 0, .8);
+    height: 100px;
+    padding: 10px 100px;
+} 
 
-.nav ul {
+nav ul {
     list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
-.nav ul li {
+nav ul li {
     list-style: none;
     display: inline-block;
     color: #FFF;
@@ -48,6 +52,15 @@ body {
     color: #E02626;
     background-color: #000;
     transition: all .3s ease-in-out;
+}
+
+.landing {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bgFromPs.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .border {
