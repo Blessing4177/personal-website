@@ -10,7 +10,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100px;
-    padding: 10px 100px;
+    padding: 5px 100px;
     box-sizing: border-box;
     transition: .3s;
     z-index: 99;
@@ -19,7 +19,7 @@ nav {
 nav.black {
     background: rgba(0, 0, 0, .8);
     height: 100px;
-    padding: 10px 100px;
+    padding: 5px 100px;
 } 
 
 nav ul {
@@ -81,11 +81,11 @@ nav ul li a.active {
 .border {
     text-align: center;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     /* background-color: #000; */
-    border: 3px white solid;
+    /* border: 3px white solid; */
     color: #FFF;
     padding: 20px 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
