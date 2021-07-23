@@ -31,21 +31,35 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    display: inline-block;
-    color: #FFF;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px 50px;
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #FFF;
+    padding: 12px 30px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav .black ul li a {
+    color: #E02626;
+}
+
+nav ul li a:focus {
+    outline: none;
+}
+
+nav ul li a.active {
+    background: #E02626;
+    color: #FFF;
+    border-radius: 5px;
 }
 
 .onhover:hover {
     color: #E02626;
     transition: all ease-in-out .3s;
-}
-
-.active {
-    color: #FFF;
-    background: #E02626;
-    border-radius: 5px;
 }
 
 .active:hover {
