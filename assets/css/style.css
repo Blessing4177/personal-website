@@ -257,6 +257,7 @@ nav #logo:hover span#changeColour {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: .7;
 }
 
 #my-work #works .work-2 {
@@ -264,6 +265,7 @@ nav #logo:hover span#changeColour {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: .7;
 }
 
 #my-work #works .work-3 {
@@ -271,20 +273,27 @@ nav #logo:hover span#changeColour {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: .7;
+}
+
+#my-work #works .work .workText {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    font-size: 40px;
+    color: white;
+    opacity: 0;
+    transition: all .3s;
 }
 
 #my-work #works .work:hover {
     transform: scale(1.05);
+    opacity: 1;
 }
 
-#my-work #works .work .workText {
-    position: relative;
-    top: 50%;
-    transform: translate(50%, 50%);
-    width: 90%;
-    height: 90%;
-    font-size: 40px;
-    color: white;
+#my-work #works .work:hover .workText {
+    opacity: 1;
 }
 
 #contact-me #contact-form {
