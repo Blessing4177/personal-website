@@ -235,11 +235,56 @@ nav #logo:hover span#changeColour {
 }
 
 #my-work #works {
-    width: 750px;
-    margin: 30px auto;
-    text-align: justify;
-    font-size: 20px;
-    line-height: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#my-work #works .work {
+    align-self: center;
+    height: 65%;
+    width: 30%;
+    border: black solid 2px;
+    margin: 10px auto;
+    border-radius: 20px;
+    background: linear-gradient(45deg, orange,#E02626);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, .2);
+    transition: all .3s;
+}
+
+#my-work #works .work-1 {
+    background-image: url('../images/color.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#my-work #works .work-2 {
+    background-image: url('../images/colorSplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#my-work #works .work-3 {
+    background-image: url('../images/embers.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#my-work #works .work:hover {
+    transform: scale(1.05);
+}
+
+#my-work #works .work .workText {
+    position: relative;
+    top: 50%;
+    transform: translate(50%, 50%);
+    width: 90%;
+    height: 90%;
+    font-size: 40px;
+    color: white;
 }
 
 #contact-me #contact-form {
@@ -249,3 +294,4 @@ nav #logo:hover span#changeColour {
     font-size: 20px;
     line-height: 30px;
 }
+
