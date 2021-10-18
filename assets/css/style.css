@@ -214,7 +214,27 @@ nav #logo:hover span#changeColour {
     padding: 0;
 }
 
-#my-work #work-text {
+.info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.info #toys {
+    text-align: center;
+}
+
+.info #toys .toysImages img {
+    width: 200px;
+    transition: all .3s;
+}
+
+.info #toys .toysImages img:hover {
+    transform: scale(1.05);
+}
+
+#my-work #works {
     width: 750px;
     margin: 30px auto;
     text-align: justify;
